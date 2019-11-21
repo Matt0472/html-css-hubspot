@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,12 +14,25 @@ body {
   margin: 0 auto;
 }
 
+.float-left {
+  float: left;
+  width: 200px;
+  /* height: 100%; */
+  background-color: blue;
+}
+.float-right {
+  float: right;
+  width: 200px;
+  height: 100%;
+  background-color: rgb(245, 170, 153);
+}
+
 /* INTESTAZIONE */
 header {
   height: 600px;
   background-color: yellow;
 }
-
+ /* navbar */
 .header-top {
   height: 120px;
   background-color: green;
@@ -28,24 +42,31 @@ header {
   background-color: rgb(67, 224, 212);
   border-bottom: 1px solid black;
 }
-.float-left {
-  float: left;
-  width: 200px;
-  height: 100%;
-  background-color: blue;
+.nav-top::after {
+  content: '';
+  display: table;
+  clear: both;
 }
-
-.float-right {
-  float: right;
-  width: 200px;
-  height: 100%;
-  background-color: rgb(245, 170, 153);
+.float-left.nav-top-left ul {
+  list-style: none;
+}
+.float-left.nav-top-left ul li {
+  display: inline;
+  line-height: 59.5px;
+  margin-left: 10px;
 }
 
 .nav-bottom {
   height: 50%;
   background-color: rgb(92, 50, 7);
 }
+.nav-bottom::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* /fine navbar */
 
 .header-center {
   height: 400px;
