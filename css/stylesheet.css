@@ -24,6 +24,29 @@ header {
   height: 120px;
   background-color: green;
 }
+.nav-top {
+  height: 50%;
+  background-color: rgb(67, 224, 212);
+  border-bottom: 1px solid black;
+}
+.float-left {
+  float: left;
+  width: 200px;
+  height: 100%;
+  background-color: blue;
+}
+
+.float-right {
+  float: right;
+  width: 200px;
+  height: 100%;
+  background-color: rgb(245, 170, 153);
+}
+
+.nav-bottom {
+  height: 50%;
+  background-color: rgb(92, 50, 7);
+}
 
 .header-center {
   height: 400px;
