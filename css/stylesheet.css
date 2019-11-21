@@ -3,3 +3,60 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-color: blue;
+  font-family: ;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* INTESTAZIONE */
+header {
+  height: 600px;
+  background-color: yellow;
+}
+
+.header-top {
+  height: 120px;
+  background-color: green;
+}
+
+.header-center {
+  height: 400px;
+}
+
+.header-bottom {
+  height: 80px;
+  background-color: purple;
+}
+
+/* CORPO CENTRALE */
+main {
+  height: 1500px;
+  background-color: red;
+}
+
+.main-content-top {
+  height: 900px;
+  background-color: grey;
+}
+
+.main-content-center {
+  height: 300px;
+  background-color: brown;
+}
+
+.main-content-bottom {
+  height: 300px;
+  background-color: lightblue;
+}
+
+/* FINE PAGINA */
+footer {
+  height: 600px;
+  background-color: orange;
+}
