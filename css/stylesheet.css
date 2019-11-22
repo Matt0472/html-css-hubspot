@@ -33,10 +33,7 @@ a {
   border-radius: 5px;
   color:rgb(255, 255, 255);
 }
-/* INTESTAZIONE */
-header {
-  height: 600px;
-}
+
  /* navbar */
 .nav-top {
   background-color: rgb(234, 244, 245);
@@ -105,13 +102,18 @@ header {
 /* /fine navbar */
 
 .header-center {
-  height: 400px;
+  position: relative;
+  height: 615px;
+  background-color: #FFF3EE;
   background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
 }
 .jumbotron-title {
   width: 40%;
   padding-top: 40px;
-  color:rgb(51, 71, 91);
+  color: rgb(51, 71, 91);
 }
 .title {
   font-size: 40px;
@@ -129,34 +131,39 @@ a.button.gethub-button {
   margin-top: 40px;
   font-size: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.header-bottom {
-  height: 80px;
-  background-color: purple;
+.bannerline {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 74px;
+  background-color: rgb(123, 222, 210);
+  border-top: 3px solid rgb(51, 71, 91);
+  border-bottom: 3px solid rgb(51, 71, 91);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* CORPO CENTRALE */
 main {
