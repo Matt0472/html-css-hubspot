@@ -21,6 +21,9 @@ font-family: 'Open Sans', sans-serif;
 .float-right {
   float: right;
 }
+ul {
+  list-style: none;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -37,12 +40,10 @@ header {
 }
  /* navbar */
 .header-top {
-  height: 120px;
   background-color: green;
 }
 .nav-top {
-  height: 50%;
-  background-color: rgb(223, 238, 240);
+  background-color: rgb(234, 244, 245);
   border-bottom: 2px solid rgb(203, 214, 226);
 }
 .nav-top::after {
@@ -50,23 +51,18 @@ header {
   display: table;
   clear: both;
 }
-.nav-top ul {
-  list-style: none;
-}
+
 .nav-top ul li {
   display: inline;
   line-height: 60px;
   margin-left: 10px;
   font-size: 13px;
+  color: rgb(51, 71, 91);
 }
 .float-left.nav-top-left ul li:first-child {
   padding-right: 15px;
   border-right: 2px solid rgb(203, 214, 226);
 }
-.float-left.nav-top-left ul li {
-  color: rgb(51, 71, 91);
-}
-
 
 .button.log-in-button {
   margin: 0 15px;
@@ -79,32 +75,39 @@ header {
   background-color: rgb(255, 143, 115);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .nav-bottom {
-  height: 50%;
-  background-color: rgb(92, 50, 7);
+  background-color: rgb(255, 255, 255);
 }
 .nav-bottom::after {
   content: '';
   display: table;
   clear: both;
 }
+
+.logo-container.container img {
+  margin: 17px 0;
+}
+.nav-bottom ul li {
+  display: inline;
+  line-height: 60px;
+  margin-left: 10px;
+  font-size: 13px;
+  color: rgb(51, 71, 91);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* /fine navbar */
 
