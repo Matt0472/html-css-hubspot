@@ -55,8 +55,9 @@ header {
 }
 .nav-top ul li {
   display: inline;
-  line-height: 59.5px;
+  line-height: 60px;
   margin-left: 10px;
+  font-size: 13px;
 }
 .float-left.nav-top-left ul li:first-child {
   padding-right: 15px;
