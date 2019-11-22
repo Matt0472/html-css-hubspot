@@ -36,12 +36,8 @@ a {
 /* INTESTAZIONE */
 header {
   height: 600px;
-  background-color: yellow;
 }
  /* navbar */
-.header-top {
-  background-color: green;
-}
 .nav-top {
   background-color: rgb(234, 244, 245);
   border-bottom: 2px solid rgb(203, 214, 226);
@@ -69,12 +65,24 @@ header {
   padding: 8px;
   background-color: white;
   color: rgb(255, 143, 115);
+  cursor: pointer;
 }
 .button.gethub-button {
   padding: 8px;
   background-color: rgb(255, 143, 115);
+  cursor: pointer;
+  color: white;
 }
-
+.button.log-in-button:hover,
+.button.log-in-button:active,
+.button.log-in-button:focus {
+  background-color: rgba(249, 234, 215, 0.94);
+}
+.button.gethub-button:hover,
+.button.gethub-button:active,
+.button.gethub-button:focus {
+  background-color: rgba(251, 226, 226, 0.9);
+}
 .nav-bottom {
   background-color: rgb(255, 255, 255);
 }
@@ -94,26 +102,53 @@ header {
   font-size: 13px;
   color: rgb(51, 71, 91);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* /fine navbar */
 
 .header-center {
   height: 400px;
+  background-image: url(../img/jumbotron.png);
 }
+.jumbotron-title {
+  width: 40%;
+  padding-top: 40px;
+  color:rgb(51, 71, 91);
+}
+.title {
+  font-size: 40px;
+}
+.jumbotron-title p {
+  line-height: 25px;
+  font-size: 13px;
+  margin: 30px 0;
+}
+
+span.button.gethub-button a {
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .header-bottom {
   height: 80px;
