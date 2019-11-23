@@ -169,11 +169,15 @@ a.button.gethub-button {
   margin: 20px auto 0 auto;
 }
 
-.hubspot-crm {
-  border: 2px solid black;
-  border-radius: 5px;
+.hubspot-crm,
+.marketing-hub,
+.sales-hub,
+.service-hub  {
+  border: 2px solid rgb(244, 249, 253);
+  border-radius: 10px;
   background-color: rgb(255, 255, 255);
   color: rgb(51, 71, 91);
+  box-shadow: 1px 1px 1.5px 1.5px rgb(198, 218, 233);
 }
 
 .hubspot-crm::after {
@@ -239,58 +243,75 @@ a.button.learn-button {
   margin: 0 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .columns {
-  height: 400px;
-  background-color: red;
+  padding: 45px 0;
 }
 .columns.container::after {
   content: '';
   display: table;
   clear: both;
 }
-.float-left.marketing-hub {
-  height: 100px;
-  width: 200px;
-  background-color: pink;
+.float-left.marketing-hub,
+.float-left.service-hub{
+  width: 29%;
+  text-align: center;
 }
-.float-left.-saleshub {
-  height: 100px;
-  width: 200px;
-  background-color: pink;
+.float-left.sales-hub {
+  width: 29%;
+  margin: 0 6.5%;
+  text-align: center;
 }
-.float-left.service-hub {
-  height: 100px;
-  width: 200px;
-  background-color: pink;
+.float-left.marketing-hub,
+.float-left.service-hub,
+.float-left.sales-hub {
+  padding: 20px 30px;
+}
+.float-left.marketing-hub h3,
+.float-left.sales-hub h3,
+.float-left.service-hub h3 {
+  margin-bottom: 25px;
+  font-weight: bold;
 }
 
+.float-left.marketing-hub p,
+.float-left.sales-hub p,
+.float-left.service-hub p {
+  line-height: 20px;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
+.float-left.marketing-hub hr,
+.float-left.sales-hub hr,
+.float-left.service-hub hr {
+  background-color: rgb(51, 71, 91);
+  border: 1px solid rgb(51, 71, 91);
+  margin-bottom: 30px;
+}
+.float-left.marketing-hub h4,
+.float-left.sales-hub h4,
+.float-left.service-hub h4 {
+  line-height: 20px;
+  font-size: 15px;
+}
+.float-left.marketing-hub ul,
+.float-left.sales-hub ul,
+.float-left.service-hub ul {
+  margin: 20px 0;
+}
+.float-left.marketing-hub ul li,
+.float-left.sales-hub ul li,
+.float-left.service-hub ul li {
+  text-align: left;
+  line-height: 20px;
+  font-size: 12px;
+}
 
-
-
-
-
-
-
+.float-left.marketing-hub ul li img,
+.float-left.sales-hub ul li img,
+.float-left.service-hub ul li img {
+  width: 30px;
+  vertical-align: middle;
+}
 
 
 
