@@ -110,23 +110,25 @@ a {
   background-position: bottom right;
 }
 .jumbotron-title {
-  width: 40%;
-  padding-top: 40px;
+  width: 35%;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-30%);
   color: rgb(51, 71, 91);
 }
 .title {
-  font-size: 40px;
+  font-size: 50px;
 }
 .jumbotron-title p {
   line-height: 25px;
   font-size: 13px;
-  margin: 30px 0;
+  margin: 40px 0;
 }
 a.button.gethub-button {
   padding: 20px 50px;
   font-size: 12px;
 }
-#getstart {
+.getstart {
   margin-top: 40px;
   font-size: 10px;
 }
@@ -362,57 +364,82 @@ h2.main-center-title {
   background-color: rgb(255, 255, 255);
 }
 
+.main-bottom-sponsor::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 .float-left.customers {
-  width: 250px;
-  height: 180px;
-  background-color: purple;
+  width: 30%;
+  color: rgb(51, 71, 91);
+}
+.float-left.customers h2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 30px 30px 20px 0;
+}
+.float-left.customers p {
+  padding: 0 120px;
+  font-size: 10px;
+  text-align: left;
+  line-height: 20px;
 }
 
-.float-left. {
-  width: 250px;
-  height: 180px;
-  background-color: purple;
+.float-right.sponsor {
+  width: 70%;
+  padding-top: 20px;
+  padding-left: 100px;
 }
-.float-left.customers {
-  width: 250px;
-  height: 180px;
-  background-color: purple;
+.float-right.sponsor ul li {
+  display: inline;
 }
-.float-left.customers {
-  width: 250px;
-  height: 180px;
-  background-color: purple;
+.float-right.sponsor ul li img {
+  width: 120px;
+  vertical-align: middle;
+  margin: 15px;
 }
 
+.float-left.start-grow {
+  width: 40%;
+  text-align: left;
+  padding: 40px;
+}
 
+.float-left.start-grow h2 {
+  font-size: 25px;
+  color: rgb(51, 71, 91);
+}
 
+.float-left.start-grow p.tools {
+  margin: 30px 0 50px 0;
+  line-height: 25px;
+  font-size: 13px;
+  color: rgb(51, 71, 91);
+}
 
+a.button.getfree {
+  background-color: rgb(255, 143, 115);
+  padding: 15px 27px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.float-right.people {
+  width: 60%;
+}
+.float-right.people img {
+  width: 300px;
+  margin-left: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 /* FINE PAGINA */
 footer {
   height: 600px;
   background-color: rgb(51, 71, 91);
+}
+
+.float-left.footer-col {
+  width: calc(100% / 4);
+  height: 300px;
+  background-color: purple;
 }
