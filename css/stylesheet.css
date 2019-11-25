@@ -305,7 +305,6 @@ a.button.learn-button {
   line-height: 20px;
   font-size: 12px;
 }
-
 .float-left.marketing-hub ul li img,
 .float-left.sales-hub ul li img,
 .float-left.service-hub ul li img {
@@ -313,11 +312,10 @@ a.button.learn-button {
   vertical-align: middle;
 }
 
+
 .main-content-center {
-  /* height: 300px; */
   background-image: linear-gradient(to bottom left, rgb(0,188, 167), rgb(0, 165, 189));
 }
-
 h2.main-center-title {
   text-align: center;
   margin: 0 25px;
@@ -341,55 +339,77 @@ h2.main-center-title {
   display: table;
   clear: both;
 }
-
 .box-line-top.float-left {
   margin-top: 80px;
-  width: 255px;
+  width: calc(100% / 4);
   height: 180px;
   border-bottom: 1px solid rgb(255, 255, 255);
   border-right: 1px solid rgb(255, 255, 255);
 }
-
 .box-line-bottom.float-left {
   margin-bottom: 120px;
-  width: 255px;
+  width: calc(100% / 4);
   height: 180px;
   border-right: 1px solid rgb(255, 255, 255);
 }
-
 .line-top div:last-of-type,
 .line-bottom div:last-of-type {
   border-right: none;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main-content-bottom {
-  height: 300px;
   background-color: rgb(255, 255, 255);
 }
+
+.float-left.customers {
+  width: 250px;
+  height: 180px;
+  background-color: purple;
+}
+
+.float-left. {
+  width: 250px;
+  height: 180px;
+  background-color: purple;
+}
+.float-left.customers {
+  width: 250px;
+  height: 180px;
+  background-color: purple;
+}
+.float-left.customers {
+  width: 250px;
+  height: 180px;
+  background-color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FINE PAGINA */
 footer {
