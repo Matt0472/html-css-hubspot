@@ -442,6 +442,7 @@ footer {
   width: calc(100% / 4);
   padding-right: 70px;
   padding-top: 25px;
+  margin-bottom: 60px;
 }
 .float-left.footer-col h4 {
   font-size: 14px;
@@ -465,3 +466,17 @@ footer {
   margin-right: 18px;
   font-size: 15px;
 }
+#lang-list {
+  text-align: center;
+}
+
+#lang-list li {
+  display: inline;
+  text-align: center;
+  font-size: 12px;
+  margin: 0 20px;
+  color: rgb(199, 232, 246);
+}
+ footer hr {
+   margin: 20px 0;
+ }
