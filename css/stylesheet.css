@@ -440,6 +440,28 @@ footer {
 
 .float-left.footer-col {
   width: calc(100% / 4);
-  height: 300px;
-  background-color: purple;
+  padding-right: 70px;
+  padding-top: 25px;
+}
+.float-left.footer-col h4 {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+.float-left.footer-col ul {
+  color: rgb(199, 232, 246);
+  font-size: 12px;
+  line-height: 40px;
+}
+#contact-button {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(51, 71, 91);
+  padding: 10px;
+}
+
+#social-list li {
+  display: inline;
+  margin-right: 18px;
+  font-size: 15px;
 }
