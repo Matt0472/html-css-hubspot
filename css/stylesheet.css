@@ -344,7 +344,7 @@ h2.main-center-title {
 .box-line-top.float-left {
   margin-top: 80px;
   width: calc(100% / 4);
-  height: 180px;
+  /* height: 180px; */
   border-bottom: 1px solid rgb(255, 255, 255);
   border-right: 1px solid rgb(255, 255, 255);
 }
@@ -358,8 +358,29 @@ h2.main-center-title {
 .line-bottom div:last-of-type {
   border-right: none;
 }
-
-
+.grid {
+  position: relative;
+  padding: 40px;
+  width: 100%;
+}
+.grid-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.grid-title {
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.grid-title h4 {
+  font-size: 40px;
+}
+.grid-title p {
+  padding-bottom: 20px;
+}
 .main-content-bottom {
   background-color: rgb(255, 255, 255);
 }
